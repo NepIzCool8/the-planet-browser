@@ -53,7 +53,7 @@ nav ul li a:hover {
 }
 
 #intro {
-  background-color: #0d1b2a;
+  background-color: #202420;  /* First alternating color */
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -62,19 +62,19 @@ nav ul li a:hover {
 }
 
 #planets {
-  background-color: #1e2a47;
+  background-color: #102010;  /* Second alternating color */
 }
 
 #merch {
-  background-color: #2d3e67;
+  background-color: #202420;  /* First alternating color */
 }
 
 #trivia {
-  background-color: #5f6b96; /* Solid color for Trivia section */
+  background-color: #102010;  /* Second alternating color */
 }
 
 #contact {
-  background-color: #3b4a73; /* Solid color for Contact section */
+  background-color: #202420;  /* First alternating color */
 }
 
 button {
@@ -136,7 +136,7 @@ footer p {
 
 /* Add a subtle starry effect in the background */
 #intro {
-  background: url('https://www.transparenttextures.com/patterns/stardust.png') repeat, linear-gradient(135deg, #0d1b2a, #1e2a47);
+  background: url('https://www.transparenttextures.com/patterns/stardust.png') repeat, #202420;
 }
 
 button:focus {
