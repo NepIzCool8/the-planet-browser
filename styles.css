@@ -1,11 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+/* Apply Poppins font to the body */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.6;
   background-color: #121212;
   color: #fff;
@@ -27,6 +22,7 @@ header {
 
 header .logo h1 {
   font-size: 24px;
+  font-weight: 600; /* Optional: Make logo text bold */
 }
 
 nav ul {
@@ -122,5 +118,8 @@ footer p {
 
 .planet-card:hover {
   transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
   transition: transform 0.3s ease;
 }
