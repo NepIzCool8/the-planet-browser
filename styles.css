@@ -62,15 +62,19 @@ nav ul li a:hover {
 }
 
 #planets {
-  background-color: #1e2a47;
+  background: linear-gradient(135deg, #1e2a47, #3b4a73);
 }
 
 #merch {
-  background-color: #2d3e67;
+  background: linear-gradient(135deg, #2d3e67, #3b4a73);
 }
 
-#trivia, #contact {
-  background-color: #3b4a73;
+#trivia {
+  background: linear-gradient(135deg, #5f6b96, #3b4a73); /* New gradient for Trivia */
+}
+
+#contact {
+  background: linear-gradient(135deg, #3b4a73, #5f6b96); /* New gradient for Contact */
 }
 
 button {
@@ -134,11 +138,6 @@ footer p {
 #intro {
   background: url('https://www.transparenttextures.com/patterns/stardust.png') repeat, linear-gradient(135deg, #0d1b2a, #1e2a47);
 }
-
-button:focus {
-  outline: none;
-}
-
 
 button:focus {
   outline: none;
