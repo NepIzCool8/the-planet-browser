@@ -62,19 +62,19 @@ nav ul li a:hover {
 }
 
 #planets {
-  background: linear-gradient(135deg, #1e2a47, #3b4a73);
+  background-color: #1e2a47;
 }
 
 #merch {
-  background: linear-gradient(135deg, #2d3e67, #3b4a73);
+  background-color: #2d3e67;
 }
 
 #trivia {
-  background: linear-gradient(135deg, #5f6b96, #3b4a73); /* New gradient for Trivia */
+  background-color: #5f6b96; /* Solid color for Trivia section */
 }
 
 #contact {
-  background: linear-gradient(135deg, #3b4a73, #5f6b96); /* New gradient for Contact */
+  background-color: #3b4a73; /* Solid color for Contact section */
 }
 
 button {
