@@ -2,9 +2,10 @@
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
-  background-color: #121212;
+  background: linear-gradient(135deg, #0d1b2a, #1e2a47);
   color: #fff;
   overflow-x: hidden;
+  margin: 0;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #222;
+  background-color: rgba(0, 0, 0, 0.7);
   position: fixed;
   top: 0;
   left: 0;
@@ -21,8 +22,9 @@ header {
 }
 
 header .logo h1 {
-  font-size: 24px;
-  font-weight: 600; /* Optional: Make logo text bold */
+  font-size: 28px;
+  font-weight: 600;
+  color: #ff9800;
 }
 
 nav ul {
@@ -42,7 +44,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #ffa500;
+  color: #ff9800;
 }
 
 .section {
@@ -51,7 +53,7 @@ nav ul li a:hover {
 }
 
 #intro {
-  background-color: #1a1a1a;
+  background-color: #0d1b2a;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -60,30 +62,37 @@ nav ul li a:hover {
 }
 
 #planets {
-  background-color: #333;
+  background-color: #1e2a47;
+}
+
+#merch {
+  background-color: #2d3e67;
 }
 
 #trivia, #contact {
-  background-color: #444;
+  background-color: #3b4a73;
 }
 
 button {
-  padding: 10px 20px;
-  background-color: #ffa500;
+  padding: 12px 24px;
+  background-color: #ff9800;
   border: none;
   color: white;
   font-size: 18px;
+  font-family: 'Poppins', sans-serif;
   cursor: pointer;
   border-radius: 5px;
-  transition: background-color 0.3s ease;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  margin-top: 20px;
 }
 
 button:hover {
-  background-color: #e07b00;
+  background-color: #f57c00;
+  transform: scale(1.1);
 }
 
 footer {
-  background-color: #222;
+  background-color: rgba(0, 0, 0, 0.7);
   text-align: center;
   padding: 20px;
 }
@@ -99,11 +108,12 @@ footer p {
 }
 
 .planet-card {
-  background-color: #555;
+  background-color: #444;
   padding: 20px;
   border-radius: 8px;
   width: 200px;
   text-align: center;
+  transition: transform 0.3s ease;
 }
 
 .planet-card img {
@@ -118,8 +128,13 @@ footer p {
 
 .planet-card:hover {
   transform: scale(1.05);
-  transition: transform 0.3s ease;
 }
 
-  transition: transform 0.3s ease;
+/* Add a subtle starry effect in the background */
+#intro {
+  background: url('https://www.transparenttextures.com/patterns/stardust.png') repeat, linear-gradient(135deg, #0d1b2a, #1e2a47);
+}
+
+button:focus {
+  outline: none;
 }
